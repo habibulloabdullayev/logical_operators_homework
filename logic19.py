@@ -9,6 +9,6 @@ def main(x):
     Returns:
         bool: answer
     """
-    return math.sqrt(x)%1==0
-print(main(121))
+    return x//10==x%10
+print(main(22))
 print(main(10))
